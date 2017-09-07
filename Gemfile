@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# ce programme va matcher tous les gems qu'on veut avec ceux de la bibli en ligne via la colone Bumble
+
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
